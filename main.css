@@ -1,0 +1,216 @@
+/***************
+GENERAL
+***************/
+
+#wrapper {
+      max-width: 940px;
+      margin: 0 auto;
+      padding: 0; 
+      text-align: center;
+}
+
+body {
+      font-family: 'Karla', sans-serif;
+
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color:dimgrey;
+}
+
+footer {
+    font-size: .6em;
+    margin-top: 15%;
+    text-align: center;
+    clear: both;
+}
+/***************
+NAV
+***************/
+
+nav {
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:#fff;
+    height:5rem; /*?*/
+    top:0;
+    left:0;
+    z-index:10;
+    line-height:3em
+}
+
+#navbar {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: nowrap;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/***************
+HOME
+***************/
+
+.front-section {
+    width: 40%;
+    margin: 12% auto;
+    text-align: left;
+}
+
+.front-text {
+    font-weight: 100;
+    letter-spacing: -.01em;
+
+}
+
+#subscribe {
+    text-align: center;
+    font-size: 1.25em;
+    display: inline-block;
+}
+
+#button {
+    text-align: center;
+}
+
+button {
+    margin-top: 40px;
+    text-align: center;    
+    border: 1px solid black;
+    line-height: 2em;
+    background-color: #fff;
+    border-radius: 20%;
+}
+
+button:hover {
+    background-color: darkseagreen;
+}
+
+/***************
+INFO
+***************/
+
+#info-text {
+    width: 60%;
+    letter-spacing: -.01em;
+    margin: 12% auto;
+    text-align: left;
+    font-weight: 100; 
+}
+
+/***************
+ARCHIVE
+***************/
+#archive-list {
+    width: 60%;
+    letter-spacing: -.01em;
+    margin: 12% auto;
+    font-weight: 100; 
+}
+
+.week, .featured {
+    text-align: left;
+}
+
+.featured {
+    padding-bottom: 15px;
+}
+
+#archive-list a {
+    color:black;
+    text-decoration: underline;
+}
+
+#archive-list a:hover {
+    text-decoration: none;
+}
+
+
+
+/***************
+DIRECTORY
+***************/
+
+#directory-header{
+    width:60%;
+    letter-spacing: -.01em;
+    margin: 12% auto 6%;
+}
+
+#sm-left-side {
+    width:20%;
+    text-align: left;
+    float:left;
+    font-size: .9em;
+    border-right: 1px solid black;
+}
+
+#sm-left-side ul {
+    list-style: none;
+    font-size: .9em;
+}
+
+#sm-left-side a {
+    color:black;
+} 
+
+#sm-left-side a:hover {
+    text-decoration: underline;
+}
+
+#listings {
+    float:left;
+    text-align: left;
+    margin-left: 20px;
+    height: 500px;
+    width: 725px;
+    overflow: scroll;
+}
+
+#listings a {
+    margin-right: 30px;
+}
+
+#listings a.tag-id {
+    margin-right:0;
+    margin-left: 20px;
+    font-size: .8em;
+    border: .5px solid black;
+    padding:2px;
+    border-radius: 20%;
+}
+
+#listings a.tag-id:hover {
+    background-color: darkseagreen;
+}
+
+table tr {
+    line-height: 2em;
+}
+
+.selected-tag {
+    text-decoration: underline;
+}
